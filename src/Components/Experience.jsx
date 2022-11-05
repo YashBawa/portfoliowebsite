@@ -5,6 +5,7 @@ import GDSC from "../images/GDSC.png";
 import Gssoc from "../images/gssoc.png";
 import Techrity from "../images/techrity.png";
 import Hack from "../images/hackoberfest.png";
+import hackclub from "../images/hackclub.png";
 
 export default function Experience() {
   return (
@@ -20,6 +21,17 @@ export default function Experience() {
                 </div>
                 <div className=" text-xl text-[#F5DEB3] font-bold">
                     <p>Member of the Technical Team, Learning <br/> and Developing skills and giving back to <br/> the society. </p>
+                </div>
+            </div>
+
+
+            <div className="mt-8">
+                <div className="GDSC top">
+                    <h2 className=' text-[#7FFFD4] font-bold text-2xl' ><img className="rounded-xl h-72 w-96" src={hackclub} alt="GDSC"/>Hackclub</h2>
+                    <h3 className='text-[#F5DEB3] font-medium text-lg'>Web Developer</h3>
+                </div>
+                <div className=" text-xl text-[#F5DEB3] font-bold">
+                    <p>Web Dev Team member, upskilling <br/> Contributing and Developing <br/> towards the club. </p>
                 </div>
             </div>
 
@@ -59,7 +71,7 @@ export default function Experience() {
         
 
             <h1 className='md:text-6xl text-4xl text-center font-serif mt-8 text-[#7FFFD4] font-semibold mb-8 underline underline-offset-2 mt-28'>OPEN SOURCE📝</h1>
-            <div className='flex flex-row place-content-around md:mt-32 mt-8 '>
+            <div className='flex md:flex-row flex-col place-content-around md:mt-32 mt-8 '>
                 <div className="mt-8">
                     <div className="GSSOC_top">
                         <h2 className=' text-[#7FFFD4] font-bold text-2xl' ><img  className="rounded-xl h- w-96" src={Gssoc} alt="gssoc badges"/>GSSOC</h2>
