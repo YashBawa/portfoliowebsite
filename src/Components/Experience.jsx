@@ -74,7 +74,7 @@ export default function Experience() {
 
                 <div className="mt-8">
                 <div className="GSSOC_top">
-                    <h2 className=' text-[#7FFFD4] font-bold text-2xl' ><img img className="rounded-xl h- w-96" src={Hack} alt="gssoc badges"/>GSSOC</h2>
+                    <h2 className=' text-[#7FFFD4] font-bold text-2xl' ><img img className="rounded-xl h- w-96" src={Hack} alt="gssoc badges"/>hackoberfest</h2>
                     <br/>
                     <h3 className='text-[#F5DEB3] font-medium text-lg'>Contributor</h3>
                 </div>
