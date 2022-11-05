@@ -1,12 +1,10 @@
-import logo from './logo.svg';
-import Projects from "./Components/Projects";
-function App() {
+import React from 'react'
+import AppRouter from './AppRouter'
+
+export default function App() {
   return (
-    <div className="App">
-      <Projects/>
-
+    <div>
+      <AppRouter/>
     </div>
-  );
+  )
 }
-
-export default App;
