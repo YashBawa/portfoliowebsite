@@ -25,7 +25,7 @@ export default function Home() {
                 </div>
             </div>
         <div >
-          <img className=" rounded-lg border-[#7FFFD4] border-2 md:w-80 md:h-96 sm:w-14 sm:h-22 " src={Yash_photo} alt="yash-photo" />
+          <img className=" rounded-lg border-[#7FFFD4] border-2 md:w-80 md:h-96 sm:w-14 sm:h-22 " src={Yash_photo} alt="yash" />
         </div>
       </div>
       
